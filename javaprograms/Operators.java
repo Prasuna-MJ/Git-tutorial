@@ -30,7 +30,7 @@ public class Operators {
         System.out.println(e - f);
 
         System.out.println(".........................................");
-        System.out.println("Assignment operator");
+        System.out.println("Assignment operator............");
 
         System.out.println("Assigning the values to the variables is called assignment opr.");
         System.out.println("a=2");
