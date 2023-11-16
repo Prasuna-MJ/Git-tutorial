@@ -1,0 +1,132 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Java",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ]
+        },
+        {
+            "name": "Java Console App",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ],
+            "externalConsole": true
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "ArrayPrograms",
+            "request": "launch",
+            "mainClass": "ArrayPrograms",
+            "projectName": "javaprograms_68f2be25"
+        },
+        {
+            "type": "java",
+            "name": "Break_ContinueLoops",
+            "request": "launch",
+            "mainClass": "Break_ContinueLoops",
+            "projectName": "javaprograms_68f2be25"
+        },
+        {
+            "type": "java",
+            "name": "Conditional_Statements",
+            "request": "launch",
+            "mainClass": "Conditional_Statements",
+            "projectName": "javaprograms_68f2be25"
+        },
+        {
+            "type": "java",
+            "name": "ExceptionHandling",
+            "request": "launch",
+            "mainClass": "ExceptionHandling",
+            "projectName": "javaprograms_68f2be25"
+        },
+        {
+            "type": "java",
+            "name": "FirstProgram",
+            "request": "launch",
+            "mainClass": "FirstProgram",
+            "projectName": "javaprograms_68f2be25"
+        },
+        {
+            "type": "java",
+            "name": "Hello_World",
+            "request": "launch",
+            "mainClass": "Hello_World",
+            "projectName": "javaprograms_68f2be25"
+        },
+        {
+            "type": "java",
+            "name": "Input_ScannerClassPrograms",
+            "request": "launch",
+            "mainClass": "Input_ScannerClassPrograms",
+            "projectName": "javaprograms_68f2be25"
+        },
+        {
+            "type": "java",
+            "name": "Loops",
+            "request": "launch",
+            "mainClass": "Loops",
+            "projectName": "javaprograms_68f2be25"
+        },
+        {
+            "type": "java",
+            "name": "Methods",
+            "request": "launch",
+            "mainClass": "Methods",
+            "projectName": "javaprograms_68f2be25"
+        },
+        {
+            "type": "java",
+            "name": "MiniProject",
+            "request": "launch",
+            "mainClass": "MiniProject",
+            "projectName": "javaprograms_68f2be25"
+        },
+        {
+            "type": "java",
+            "name": "Operators",
+            "request": "launch",
+            "mainClass": "Operators",
+            "projectName": "javaprograms_68f2be25"
+        },
+        {
+            "type": "java",
+            "name": "StringProgramms",
+            "request": "launch",
+            "mainClass": "StringProgramms",
+            "projectName": "javaprograms_68f2be25"
+        },
+        {
+            "type": "java",
+            "name": "castingPrograms",
+            "request": "launch",
+            "mainClass": "castingPrograms",
+            "projectName": "javaprograms_68f2be25"
+        }
+    ]
+}
