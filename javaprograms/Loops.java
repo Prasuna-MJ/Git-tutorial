@@ -36,7 +36,7 @@ public class Loops {
         try (Scanner sc = new Scanner(System.in)) {
             int num = 0;
             do {
-                System.out.println("Enter a positive number to keep printing:");
+                System.out.println("Enter a positive number to printing:");
                 num = sc.nextInt();
                 System.out.println("The number is:" + num);
 
