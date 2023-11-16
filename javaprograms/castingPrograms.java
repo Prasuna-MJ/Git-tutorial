@@ -1,6 +1,6 @@
 public class castingPrograms {
     public static void main(String[] args) {
-        double a = 118.99;
+        double a = 118.89;
         double d = a + 9;// implicit conversion
         System.out.println(d);
 
