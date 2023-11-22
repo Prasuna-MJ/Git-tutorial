@@ -4,10 +4,12 @@ public class StringProgramms {
         String name = "Prasu";
         System.out.println(name);
         System.out.println(name.length());
+        System.out.println(name.charAt(3));
 
         String s1 = "Prasuna";
         System.out.println(s1);
         System.out.println(s1.length());
+        System.out.println(name.charAt(1));
 
         System.out.println(name + s1);
         System.out.println(name);// two strings are concatenated using + operator
